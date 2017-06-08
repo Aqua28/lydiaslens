@@ -52,6 +52,11 @@ body{
 	p {
 		font-size: 23px;
 	}
+
+figcaption { 
+	font-family: 'Pavanam', sans-serif;
+	
+}
 	ul {
 	    list-style-type: none;
 	    margin: 0;
