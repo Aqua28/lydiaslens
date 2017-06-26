@@ -1,61 +1,59 @@
 body{
 	/*background-image: url(images/whitesands.JPG);*/
     opacity: 0.85;
-		
+
 		font-family: 'Lora', serif;
 		 background-color: rgba(210, 212, 263, 0.7);
 	}
-	
+
 	img.mono {
 		margin: 10px;
 	    display: block;
 	    float: center;
 	}
-	
+
 	img.milk {
 		display: block;
 		margin: 40px 30px 30px 70px ;
 		float: right;
 	}
-	
-	
+
+
 	h1 {
 		font-family: 'Pavanam', sans-serif;
 		font-size: 50px;
 		font-weight: lighter;
 		word-spacing:0.05em;
-		
 		color: #16315e;
-		text-align:center; 
-		
+		text-align:center;
+margin-bottom: 0px
 	}
-	
+
 	h2 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
 		color: #16315e;
-		font-size: 40px;
+		font-size: 20px;
 		text-align:center;
 		font-style: italic;
 	}
-	
+
 	h3 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
 		color: #16315e;
-		font-size: 30px;
+		font-size: 35px;
 		text-align:center;
-		
-		font-style: italic;
+
 	}
-	
+
 	p {
 		font-size: 23px;
 	}
 
-figcaption { 
+figcaption {
 	font-family: 'Pavanam', sans-serif;
-	
+
 }
 	ul {
 		font-family: 'Pavanam', sans-serif;
@@ -74,13 +72,18 @@ figcaption {
 	    display: block;
 	    color: #d5dfef;;
 	    text-align: center;
-	    padding: 14px 16px;
+	    padding: 15px 16px;
 	    text-decoration: none;
+			padding-left: 30px;
+			font-size: 20px
 	}
 
 	li a:hover {
 	    background-color: white;
 	}
+
+
+
 
 
 * {box-sizing:border-box}
@@ -139,12 +142,12 @@ body {font-family: Verdana,sans-serif;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -154,21 +157,21 @@ body {font-family: Verdana,sans-serif;}
 }
 
 /*
-   #slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 240px; 
-    height: 240px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+   #slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
 
 */
