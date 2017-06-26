@@ -1,35 +1,36 @@
 body{
 	background-image: url(images/sanddunes.JPG);
     opacity: 0.7;
+
 		</*background-color:#c7c9cc;*/
 		font-family: 'Lora', serif;
 		 background-color: rgba(210, 212, 243, 0.7);
 	}
-	
+
 	img.mono {
 		margin: 10px;
 	    display: block;
 	    float: center;
 	}
-	
+
 	img.milk {
 		display: block;
 		margin: 40px 30px 30px 70px ;
 		float: right;
 	}
-	
-	
+
+
 	h1 {
 		font-family: 'Pavanam', sans-serif;
 		font-size: 50px;
 		font-weight: lighter;
 		word-spacing:0.05em;
-		
+
 		color: #16315e;
-		text-align:center; 
-		
+		text-align:center;
+
 	}
-	
+
 	h2 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
@@ -38,26 +39,28 @@ body{
 		text-align:center;
 		font-style: italic;
 	}
-	
+
 	h3 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
 		color: #16315e;
 		font-size: 30px;
 		text-align:center;
-		
+
 		font-style: italic;
 	}
-	
+
 	p {
 		font-size: 23px;
 	}
 	ul {
+			font-family: 'Pavanam', sans-serif;
 	    list-style-type: none;
 	    margin: 0;
 	    padding: 0;
 	    overflow: hidden;
 	    background-color: #4a5b77;
+			font-size: 20px;
 	}
 
 	li {
@@ -68,7 +71,7 @@ body{
 	    display: block;
 	    color: #d5dfef;;
 	    text-align: center;
-	    padding: 14px 16px;
+	    padding: 10px 20px;
 	    text-decoration: none;
 	}
 
