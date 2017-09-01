@@ -178,7 +178,7 @@ body {font-family: Verdana,sans-serif;}
 
 
 .gallery {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   padding: 5px;
 
@@ -192,7 +192,7 @@ body {font-family: Verdana,sans-serif;}
 
 .gallery > div > img {
   display: block;
-  width: 350px;
+  width: 300px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
