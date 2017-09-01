@@ -24,7 +24,7 @@ body{
 		font-size: 50px;
 		font-weight: lighter;
 		word-spacing:0.05em;
-		color: #16315e;
+		color: #000000;
 		text-align:center;
 margin-bottom: 0px
 	}
@@ -32,7 +32,7 @@ margin-bottom: 0px
 	h2 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
-		color: #16315e;
+		color: #000000;
 		font-size: 20px;
 		text-align:center;
 		font-style: italic;
@@ -41,7 +41,7 @@ margin-bottom: 0px
 	h3 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
-		color: #16315e;
+		color: #000000;
 		font-size: 35px;
 		text-align:center;
 
@@ -70,7 +70,7 @@ figcaption {
 
 	li a {
 	    display: block;
-	    color: #d5dfef;;
+	    color: #000000;
 	    text-align: center;
 	    padding: 15px 16px;
 	    text-decoration: none;
