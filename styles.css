@@ -192,7 +192,7 @@ body {font-family: Verdana,sans-serif;}
 
 .gallery > div > img {
   display: block;
-  width: 250px;
+  width: 350px;
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
