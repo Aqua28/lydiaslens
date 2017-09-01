@@ -56,13 +56,13 @@ figcaption {
 
 }
 	ul {
-		font-family: 'Pavanam', sans-serif;
+	font-family: 'Pavanam', sans-serif;
 	    list-style-type: none;
 	    margin: 0;
 	    padding: 0;
 	    overflow: hidden;
 	    background-color: #afafaf;
-		font-weight: bold;
+	font-weight: bold;
 	}
 
 	li {
