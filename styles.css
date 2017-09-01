@@ -177,16 +177,10 @@ body {font-family: Verdana,sans-serif;}
 /*GALLERY*/
 
 
-body {
-  font: 14px/1 'Open Sans', sans-serif;
-  color: #555;
-  background: #e5e5e5;
-}
-
 .gallery {
-  width: 640px;
+  width: 80%;
   margin: 0 auto;
-  padding: 5px;
+  padding: 10px;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
