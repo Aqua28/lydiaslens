@@ -62,6 +62,7 @@ figcaption {
 	    padding: 0;
 	    overflow: hidden;
 	    background-color: #afafaf;
+		font-weight: bold;
 	}
 
 	li {
