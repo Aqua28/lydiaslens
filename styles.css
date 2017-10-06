@@ -15,7 +15,7 @@ body{
 	img.milk {
 		display: block;
 		margin: 40px 30px 30px 70px ;
-		float: right;
+		float: left;
 	}
 
 
@@ -203,7 +203,7 @@ body {font-family: Verdana,sans-serif;}
 }
 
 .gallery > div:hover > img {
-  transform: scale(1.7,1.7);
+  transform: scale(1.6,1.6);
   transition: .3s transform;
 }
 
