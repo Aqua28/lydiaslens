@@ -6,33 +6,22 @@ body{
 		 background-color: rgba(237, 237, 237, 0.7);
 	}
 
-	img.mono {
-		margin: 10px;
-	    display: block;
-	    float: center;
-	}
-
-	img.milk {
-		display: block;
-		margin: 40px 30px 30px 70px ;
-		float: left;
-	}
-
 
 	h1 {
 		font-family: 'Pavanam', sans-serif;
-		font-size: 50px;
+		font-size: 43px;
 		font-weight: lighter;
-		word-spacing:0.05em;
-		color: #000000;
+		word-spacing:0.01em;
+		color: #30415d;
 		text-align:center;
 margin-bottom: 0px
 	}
 
 	h2 {
+
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
-		color: #000000;
+		color: #30415d;
 		font-size: 20px;
 		text-align:center;
 		font-style: italic;
@@ -41,8 +30,8 @@ margin-bottom: 0px
 	h3 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
-		color: #000000;
-		font-size: 35px;
+		color: #30415d;
+		font-size: 30px;
 		text-align:center;
 
 	}
@@ -55,36 +44,50 @@ figcaption {
 	font-family: 'Pavanam', sans-serif;
 
 }
+
+.navigationbar{
+
+	text-align: center;
+}
 	ul {
-	font-family: 'Pavanam', sans-serif;
+
+	 font-family: 'Pavanam', sans-serif;
+	 font-size: 19.5px;
 	    list-style-type: none;
 	    margin: 0;
 	    padding: 0;
-	    overflow: hidden;
-	    background-color: #afafaf;
-	font-weight: bold;
+	    overflow: auto;
+
+
+
 	}
 
 	li {
 	    float: left;
+
+			height: 30px;
+		   float: left;
+		   margin-right: 0px;
+		   border-right: 1px solid #aaa;
+		   padding: 0 20px;
+
 	}
 
 	li a {
-	    display: block;
-	    color: #FFFFFF;
+
+	    color: #8EAEDB;
 	    text-align: center;
 	    padding: 15px 16px;
 	    text-decoration: none;
 			padding-left: 30px;
-			font-size: 20px
+			font-size: 22px
+
+			-webkit-transition: all 0.5s ease;
 	}
 
 	li a:hover {
-	    background-color: rgba(237, 237, 237, 0.7);
+	    color: #031424;
 	}
-
-
-
 
 
 * {box-sizing:border-box}
@@ -179,12 +182,10 @@ body {font-family: Verdana,sans-serif;}
 
 
 .gallery {
-  width: 100%;
+  width: 95%;
 
   padding: 2px;
-	max-width: 800px;
-  height: relative;
-  position: relative;
+
   margin: 30px auto;
 
 }
