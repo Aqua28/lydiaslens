@@ -22,7 +22,7 @@ margin-bottom: 0px
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
 		color: #30415d;
-		font-size: 20px;
+		font-size: 18px;
 		text-align:center;
 		font-style: italic;
 	}
@@ -56,8 +56,6 @@ figcaption {
 	    list-style-type: none;
 	    margin: 0;
 	    padding: 0;
-	    overflow: auto;
-
 
 
 	}
