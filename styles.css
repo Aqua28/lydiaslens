@@ -24,14 +24,17 @@ margin-bottom: 0px
 		color: #30415d;
 		font-size: 18px;
 		text-align:center;
-		font-style: italic;
+		font-style:;
+		margin-left: 30px;
+
+	margin-right: 30px;
 	}
 
 	h3 {
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
 		color: #30415d;
-		font-size: 30px;
+		font-size: 20px;
 		text-align:center;
 
 	}
