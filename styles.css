@@ -22,7 +22,7 @@ margin-bottom: 0px
 		font-family: 'Pavanam', sans-serif;
 		font-weight: lighter;
 		color: #30415d;
-		font-size: 18px;
+		font-size: 17px;
 		text-align:center;
 		font-style:;
 		margin-left: 30px;
@@ -69,8 +69,8 @@ figcaption {
 			height: 30px;
 		   float: left;
 		   margin-right: 0px;
-		   border-right: 1px solid #aaa;
-		   padding: 0 20px;
+		   border-rights: 0px solid #aaa;
+		   padding: 0 0px;
 
 	}
 
@@ -146,20 +146,7 @@ body {font-family: Verdana,sans-serif;}
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
 
    #slideshow {
     margin: 50px auto;
@@ -167,7 +154,7 @@ body {font-family: Verdana,sans-serif;}
     width: 240px;
     height: 240px;
     padding: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+
 }
 
 #slideshow > div {
@@ -183,7 +170,7 @@ body {font-family: Verdana,sans-serif;}
 
 
 .gallery {
-  width: 95%;
+  width: 99%;
 
   padding: 2px;
 
@@ -204,10 +191,13 @@ body {font-family: Verdana,sans-serif;}
 
 .gallery > div > img {
   display: block;
-  width: 300px;
+  width: 290px;
+
   transition: .1s transform;
   transform: translateZ(0); /* hack */
 }
+
+.gallery111 {width:100%;}
 
 .gallery > div:hover {
   z-index: 1;
@@ -218,6 +208,7 @@ body {font-family: Verdana,sans-serif;}
   transition: .3s transform;
 }
 
+/*
 .cf:before, .cf:after {
   display: table;
   content: "";
