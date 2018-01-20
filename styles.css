@@ -64,13 +64,13 @@ figcaption {
 	}
 
 	li {
-	    float: left;
+	   
 
 			height: 30px;
 		   float: left;
 		   margin-right: 0px;
 		   border-rights: 0px solid #aaa;
-		   padding: 0 0px;
+		   padding: 0 7px;
 
 	}
 
