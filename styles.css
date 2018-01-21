@@ -1,6 +1,6 @@
 body{
 	/*background-image: url(images/whitesands.JPG);*/
-    opacity: 0.85;
+    opacity: .95;
 
 		font-family: 'Lora', serif;
 		 background-color: rgba(237, 237, 237, 0.7);
@@ -39,8 +39,28 @@ margin-bottom: 0px
 
 	}
 
+	h4 {
+		font-family: 'Pavanam', sans-serif;
+		font-weight: lighter;
+		color: #30415d;
+		font-size: 15px;
+		text-align:right;
+		padding-right: 20px;
+
+	}
+
+
+		h5 {
+			font-family: 'Pavanam', sans-serif;
+			font-weight: lighter;
+			color: #30415d;
+			font-size: 20px;
+			text-align: left;
+			margin-left: 20px;
+		}
+
 	p {
-		font-size: 23px;
+		font-size: 1px;
 	}
 
 figcaption {
@@ -64,13 +84,15 @@ figcaption {
 	}
 
 	li {
-	   
 
-			height: 30px;
+
+			height: 28px;
 		   float: left;
 		   margin-right: 0px;
 		   border-rights: 0px solid #aaa;
-		   padding: 0 7px;
+			 padding-left: 0px;
+			 padding-right: 0px;
+
 
 	}
 
@@ -187,11 +209,14 @@ body {font-family: Verdana,sans-serif;}
   max-width: 100% ;
   height: auto ;
 
+
 }
 
 .gallery > div > img {
   display: block;
   width: 290px;
+margin-left: 42px;
+
 
   transition: .1s transform;
   transform: translateZ(0); /* hack */
@@ -206,6 +231,7 @@ body {font-family: Verdana,sans-serif;}
 .gallery > div:hover > img {
   transform: scale(1.3,1.3);
   transition: .3s transform;
+
 }
 
 /*
@@ -217,4 +243,38 @@ body {font-family: Verdana,sans-serif;}
 
 .cf:after {
   clear: both;
+}
+*/
+
+
+/*Blog*/
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+div.selections {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+
+}
+
+div.selections:hover {
+	opacity:.8;
+
+}
+
+div.selections img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.fog img {
+
+	display: block;
+			margin: 0 auto;
+
 }
