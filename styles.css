@@ -219,7 +219,7 @@ body {font-family: Verdana,sans-serif;}
 .gallery > div > img {
   display: block;
   width: 290px;
-margin-left: 42px;
+margin-left: 5px;
 
 
   transition: .1s transform;
