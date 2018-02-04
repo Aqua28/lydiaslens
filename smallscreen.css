@@ -1,6 +1,6 @@
 body{
 	/*background-image: url(images/whitesands.JPG);*/
-  
+    opacity: 0.97;
 
 		font-family: 'Lora', serif;
 		 background-color: rgba(229, 237, 249, 0.6);
@@ -171,7 +171,7 @@ body {font-family: Verdana,sans-serif;}
 .gallery {
   width: 99%;
 
-  padding: 2px;
+  padding: 20px;
 
   margin: 30px 30px 30px 30px ;
 
@@ -179,8 +179,8 @@ body {font-family: Verdana,sans-serif;}
 
 .gallery > div {
   position: relative;
-  float: left;
-  padding: 25px;
+  float: center;
+  padding: 5px;
 
   width: auto ;
   max-width: 100% ;
@@ -190,34 +190,9 @@ body {font-family: Verdana,sans-serif;}
 
 .gallery > div > img {
   display: block;
-  width: 300px;
+  width: 250px;
 
 
   transition: .1s transform;
   transform: translateZ(0); /* hack */
-}
-
-.gallery111 {width:100%;}
-
-
-
-.gallery > div:hover {
-  z-index: 1;
-}
-
-.gallery > div:hover > img {
-
-  transform: scale(1.3,1.3);
-  transition: .3s transform;
-}
-
-
-.cf:before, .cf:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-.cf:after {
-  clear: both;
 }
