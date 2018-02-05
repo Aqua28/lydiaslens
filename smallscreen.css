@@ -171,7 +171,7 @@ body {font-family: Verdana,sans-serif;}
 .gallery {
   width: 99%;
 
-  padding: 20px;
+  padding: 5px;
 
   margin: 30px 30px 30px 30px ;
 
@@ -190,9 +190,39 @@ body {font-family: Verdana,sans-serif;}
 
 .gallery > div > img {
   display: block;
-  width: 250px;
+  width: 260px;
 
 
   transition: .1s transform;
   transform: translateZ(0); /* hack */
+}
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("images/goldengate.jpg");
+
+    /* Set a specific height */
+    min-height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("images/gazingatyosemitemobile.JPG");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
