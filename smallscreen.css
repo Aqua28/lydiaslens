@@ -202,15 +202,9 @@ body {font-family: Verdana,sans-serif;}
 .parallax {
     /* The image used */
     background-image: url("images/goldengate.jpg");
+min-height: 300px;
 
-    /* Set a specific height */
-    min-height: 350px;
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .parallax1 {
