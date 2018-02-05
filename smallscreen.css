@@ -209,10 +209,10 @@ min-height: 300px;
 
 .parallax1 {
     /* The image used */
-    background-image: url("images/gazingatyosemite.JPG");
+    background-image: url("images/gazingatyosemitemobile.JPG");
 
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 300px
 
     /* Create the parallax scrolling effect */
 
