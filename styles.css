@@ -3,13 +3,10 @@ body{
 
 
 		font-family: 'Lora', serif;
-
+		 background-color: rgba(229, 237, 249, 0.6);
 	}
 
-	root {
-		font-size: 20
-		color: yellow
-	}
+
 	h1 {
 		font-family: 'Pavanam', sans-serif;
 		font-size: 43px;
