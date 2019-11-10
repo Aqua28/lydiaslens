@@ -33,8 +33,3 @@ function showSlides() {
 }
 
 //Slideshow
-
-
-
-const domContainer = document.querySelector('#gallery_picture');
-ReactDOM.render(e(GalleryPicture), domContainer);
